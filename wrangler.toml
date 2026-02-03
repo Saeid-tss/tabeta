@@ -1,0 +1,22 @@
+name = "tabeta"
+main = "index.js"
+compatibility_date = "2025-11-09"
+workers_dev = true
+preview_urls = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+UUID = "1f86c1d2-bdad-40f1-87fc-e2418eb609c2"
+PROXYIP = "proxyip.cmliussss.net"
+
+# [build]
+# command = "npm run deploy"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
